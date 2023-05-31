@@ -9,7 +9,7 @@ pub struct Expression {
 pub enum ExpressionCalculationError {
     #[error("Mismatched parenthesis in the expression.")]
     MissmatchedParenthesis,
-    #[error("Calculation unsuccesfull.")]
+    #[error("Calculation unsuccessfull.")]
     RPNCalculation
 }
 
